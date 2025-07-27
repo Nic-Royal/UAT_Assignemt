@@ -1,5 +1,5 @@
 # UAT_Assignemt
-**My Approach****** -->
+**My Approach** -->
 1. **Input Format**:
 I was provided with a logs.json file where each item had:
   A system prompt (which acts like background/context)
