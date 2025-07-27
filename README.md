@@ -18,10 +18,10 @@ It converts text into embeddings and helps calculate semantic similarity using c
 I don't have access to OpenAI’s paid API, so I used a local model to simulate similar behavior. This allowed me to test things like RAGAs-style scoring without relying on any online services.
 
 --> **Libraries Used** <--
-"json" – for reading and parsing the input log file
-"sentence-transformers" – to encode text as embeddings and compute similarities
-"cosine similarity" - used via sentence-transformers.util.cos_sim() to measure how semantically similar two texts are
-"torch" – used internally by sentence-transformers to run the embedding model.
+"json" – for reading and parsing the input log file.\n
+"sentence-transformers" – to encode text as embeddings and compute similarities.\n
+"cosine similarity" - used via sentence-transformers.util.cos_sim() to measure how semantically similar two texts are.\n
+"torch" – used internally by sentence-transformers to run the embedding model.\n
 
 --> **Assumptions and Simplifications** <--
 1. I only used the first expected output from each log item.
